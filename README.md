@@ -3,7 +3,7 @@
 This repository provides two approaches for collecting Google Reviews data:
 
 1. **Free Scraper**: A lightweight solution for small-scale projects, testing, personal research, and educational purposes.
-2. **Bright Data Google Reviews API**: A robust, high-volume solution for enterprise-level, scalable, and reliable data extraction.
+2. **Bright Data Google Reviews API**: A robust, high-volume solution for enterprise-level, scalable, and reliable data extraction. Part of the [SERP API](https://brightdata.com/products/serp-api).
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ This repository provides two approaches for collecting Google Reviews data:
 ## Free Scraper
 A quick-and-easy scraper for those who need to extract reviews on a smaller scale.
 
-<img width="700" alt="scrape-google-reviews-pizza-place" src="https://github.com/user-attachments/assets/8f8069c4-3521-49d1-ba77-8eb6e840de2b" />
+<img width="700" alt="scrape-google-reviews-pizza-place" src="https://github.com/luminati-io/google-reviews-api/blob/main/images/420648584-8f8069c4-3521-49d1-ba77-8eb6e840de2b.png" />
 
 ### Setup
 
@@ -47,7 +47,7 @@ playwright install
 
 ### Quick Start
 
-1. Open [google-reviews-scraper.py](https://github.com/triposat/Google-Reviews-API/blob/main/google-reviews-scraper/google-reviews-scraper.py) and update the following variables:
+1. Open [google-reviews-scraper.py](https://github.com/luminati-io/Google-Reviews-API/blob/main/google-reviews-scraper/google-reviews-scraper.py) and update the following variables:
     - `url` – The Google Maps URL of the business.
     - `target_reviews` – The number of reviews to scrape.
 2. Run the script.
@@ -73,7 +73,7 @@ playwright install
 }
 ```
 
-👉 See the [full JSON output](https://github.com/triposat/Google-Reviews-API/blob/main/google-reviews-results/reviews_output.json).
+👉 See the [full JSON output](https://github.com/luminati-io/Google-Reviews-API/blob/main/google-reviews-results/reviews_output.json).
 
 
 ### Limitations
@@ -104,7 +104,7 @@ You'll need a more advanced solution for reliable, large-scale data collection.
 1. **Prerequisites:**
     - Create a [Bright Data account](https://brightdata.com/) (new users get $5 credit)
     - Obtain your [API key](https://docs.brightdata.com/general/account/api-token)
-2. **Setup:** Follow our [step-by-step guide](https://github.com/triposat/Google-Reviews-API/blob/main/setup-serp-api-guide.md) to integrate the API
+2. **Setup:** Follow our [step-by-step guide](https://github.com/luminati-io/Google-Reviews-API/blob/main/setup-serp-api-guide.md) to integrate the API
 3. **Implementation Methods:**
     - Direct API Access
     - Native Proxy-Based Access
@@ -149,7 +149,7 @@ with open("serp-direct-api.json", "w") as file:
 print("Response saved to 'serp-direct-api.json'.")
 ```
 
-👉 See the [full JSON output](https://github.com/triposat/Google-Reviews-API/blob/main/google-reviews-api-results/serp-direct-api.json).
+👉 See the [full JSON output](https://github.com/luminati-io/Google-Reviews-API/blob/main/google-reviews-api-results/serp-direct-api.json).
 
 > **Note:** Use `brd_json=1` for parsed JSON or `brd_json=html` for parsed JSON + full nested HTML.
 > 
@@ -192,7 +192,7 @@ with open("serp-native-proxy.json", "w", encoding="utf-8") as file:
 print("Response saved to 'serp-native-proxy.json'.")
 ```
 
-👉 See the [full JSON output](https://github.com/triposat/Google-Reviews-API/blob/main/google-reviews-api-results/serp-native-proxy.json).
+👉 See the [full JSON output](https://github.com/luminati-io/Google-Reviews-API/blob/main/google-reviews-api-results/serp-native-proxy.json).
 
 > **Note:** For production environments, load Bright Data's SSL certificate as described in our [SSL Certificate Guide](https://docs.brightdata.com/general/account/ssl-certificate).
 >
@@ -201,7 +201,7 @@ print("Response saved to 'serp-native-proxy.json'.")
 Bright Data's API supports several advanced parameters for fine-tuning your review extraction.
 
 ### Feature ID (fid)
-<img width="700" alt="scrape-google-reviews-building" src="https://github.com/user-attachments/assets/0bc3b223-adf4-487a-9c75-11679b16907d" />
+<img width="700" alt="scrape-google-reviews-building" src="https://github.com/luminati-io/google-reviews-api/blob/main/images/420657506-0bc3b223-adf4-487a-9c75-11679b16907d.png" />
 
 The feature ID is a unique identifier for the business or location. To find it:
 
@@ -212,7 +212,7 @@ The feature ID is a unique identifier for the business or location. To find it:
 
 ### Localization (hl)
 
-<img width="700" alt="google-reviews-scraper-building" src="https://github.com/user-attachments/assets/0f1b630e-cb2a-4125-a7de-64be656a2f5b" />
+<img width="700" alt="google-reviews-scraper-building" src="https://github.com/luminati-io/google-reviews-api/blob/main/images/420665500-0f1b630e-cb2a-4125-a7de-64be656a2f5b.png" />
 
 Specifies the preferred language using a two-letter language code.
 

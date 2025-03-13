@@ -1,5 +1,7 @@
 # Google Reviews API
 
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/serp-api/google-search/reviews)
+
 This repository provides two approaches for collecting Google Reviews data:
 
 1. **Free Scraper**: A lightweight solution for small-scale projects, testing, personal research, and educational purposes.
